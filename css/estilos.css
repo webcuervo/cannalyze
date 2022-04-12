@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .container-fluid .navbar-brand {
     font-family: 'Noto Sans JP', sans-serif;
     color: #3D94F6;
@@ -63,7 +68,22 @@
     height: 170px;
 }
 
+.container .h3 {
+    transition: 3s;
+    font-family: 'Noto Sans JP', sans-serif;
+}
 
+.container .h3:hover {
+    text-shadow: 2px 1px 4px #8336db;
+}
+
+#footer {
+    background: rgb(62,225,255);
+    background: linear-gradient(0deg, rgba(62,225,255,1) 0%, rgba(45,253,62,1) 100%);
+}
+#footer p {
+    color: white;
+}
 
 /*  Gradiante del fondo
 
