@@ -1,0 +1,75 @@
+.container-fluid .navbar-brand {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #3D94F6;
+    /* font-size: 32px; */
+    font-weight: 500;
+}
+
+.container-fluid .navbar-brand span {
+    transition: .4s linear;
+}
+
+.container-fluid .navbar-brand span:hover {
+    color: #3D94F6;
+    font-weight:bolder;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #8336db,
+    0 0 15px #8336db,
+    0 0 20px #8336db;
+    }
+
+
+.container-fluid .navbar-brand:hover {
+    color: #3D94F6;
+    text-shadow: 0 0 10px #8336db,
+    0 0 15px #8336db,
+    0 0 20px #8336db;
+}
+
+#navbarTogglerDemo03 {
+    transition: 180ms linear;
+}
+
+.navbar-toggler-icon {
+    border: 1px solid #3D94F6;
+}
+
+.imgback {
+    width: 520px;
+}
+
+.container .h2 {
+    transition: 3s;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container .h2:hover {
+    text-shadow: 2px 1px 4px #8336db;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.row div {
+    margin-top: 20px;
+}
+
+.card img {
+    width: 290px;
+    height: 170px;
+}
+
+
+
+/*  Gradiante del fondo
+
+.container-fluid {
+    background: rgb(62,225,255);
+    background: linear-gradient(0deg, rgba(62,225,255,1) 0%, rgba(45,253,62,1) 100%);
+
+} */
+
