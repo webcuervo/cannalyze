@@ -97,6 +97,16 @@ body {
     object-fit: cover;
 }
 
+.imagen {
+    width: 100%;
+    max-width: 400px;
+}
+
+.imagen2 {
+    width: 100%;
+    max-width: 800px;
+}
+
 .container .h3 {
     transition: 3s;
     font-family: 'Noto Sans JP', sans-serif;
