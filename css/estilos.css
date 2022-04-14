@@ -70,6 +70,17 @@ body {
     text-shadow: 2px 1px 4px white;
 }
 
+.container .h1 {
+    transition: 3s;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-shadow: 2px 1px 4px white;
+    font-weight: 900;
+}
+
+.container .h1:hover {
+    text-shadow: 2px 1px 4px #8336db;
+} 
+
 .container .h2:hover {
     text-shadow: 2px 1px 4px #8336db;
 }
@@ -79,10 +90,6 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
 }
-
-/* .row div {
-    margin-top: 20px;
-} */
 
 .card img {
     width: 100%;
@@ -99,6 +106,21 @@ body {
 
 .container .h3:hover {
     text-shadow: 2px 1px 4px #8336db;
+}
+
+.parrafo {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: justify;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.carousel-item .carousel-caption h5 {
+    text-shadow: 2px 1px 4px black;
 }
 
 #lab {
