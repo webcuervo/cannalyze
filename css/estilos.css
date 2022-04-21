@@ -1,187 +1,122 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-#banner {
-    background-image: url(/Proyectos/images/seeds.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
 .container-fluid .navbar-brand {
-    font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #3D94F6;
+  font-weight: 500; }
+  .container-fluid .navbar-brand:hover {
     color: #3D94F6;
-    /* font-size: 32px; */
-    font-weight: 500;
-}
-
-.container-fluid .navbar-brand span {
-    transition: .4s linear;
-}
-
-.container-fluid .navbar-brand span:hover {
-    color: #3D94F6;
-    font-weight:bolder;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-    text-shadow: 0 0 10px #8336db,
-    0 0 15px #8336db,
-    0 0 20px #8336db;
-    }
-
-
-.container-fluid .navbar-brand:hover {
-    color: #3D94F6;
-    text-shadow: 0 0 10px #8336db,
-    0 0 15px #8336db,
-    0 0 20px #8336db;
-}
+    text-shadow: 0 0 10px #8336db, 0 0 15px #8336db, 0 0 20px #8336db; }
+  .container-fluid .navbar-brand span {
+    transition: .4s linear; }
+    .container-fluid .navbar-brand span:hover {
+      color: #3D94F6;
+      font-weight: bolder;
+      letter-spacing: 8px;
+      text-transform: uppercase;
+      text-shadow: 0 0 10px #8336db, 0 0 15px #8336db, 0 0 20px #8336db; }
 
 #navbarTogglerDemo03 {
-    transition: 180ms linear;
-}
+  transition: 180ms linear; }
 
 .navbar-toggler-icon {
-    background-color: #3D94F6;
-    border: 1px solid #3D94F6;
-    border-radius: 3px;
-    font-size: 25px;
-}
+  background-color: #3D94F6;
+  border: 1px solid #3D94F6;
+  border-radius: 3px;
+  font-size: 25px; }
 
 .nav-item:hover {
-    transition:1.1s;
-    background-color: #8336db;
-}
-
-.imgback {
-    width: 520px;
-}
-
-.container .h2 {
-    transition: 3s;
-    font-family: 'Noto Sans JP', sans-serif;
-    text-shadow: 2px 1px 4px white;
-}
-
-.container .h1 {
-    transition: 3s;
-    font-family: 'Noto Sans JP', sans-serif;
-    text-shadow: 2px 1px 4px white;
-    font-weight: 900;
-}
-
-.container .h1:hover {
-    text-shadow: 2px 1px 4px #8336db;
-} 
-
-.container .h2:hover {
-    text-shadow: 2px 1px 4px #8336db;
-}
+  transition: 1.1s;
+  background-color: #8336db; }
 
 .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
 
 .card img {
-    width: 100%;
-    height: 15vh;
-    object-fit: cover;
-}
+  width: 100%;
+  height: 15vh;
+  object-fit: cover; }
 
 .imgBanner {
-    position: relative;
-    width: 540px;
-}
-
-.imgBanner img{
+  position: relative;
+  width: 540px; }
+  .imgBanner img {
     display: block;
     width: 100%;
     border-radius: 29px;
     opacity: 0.8;
-    filter: sepia(30%);
-}
+    filter: sepia(30%); }
 
 .imgOverlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.25ms;
-    transform: translateY(10px);
-    transition: transform 0.25s;
-}
-
-.imgOverlay:hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25ms;
+  transform: translateY(10px);
+  transition: transform 0.25s; }
+  .imgOverlay:hover {
     opacity: 1;
-    transform: translateY(0);
-}
-
-.imgOverlay h3 {
-    font-family: 'Noto Sans JP', sans-serif;
-}
+    transform: translateY(0); }
+  .imgOverlay h3 {
+    font-family: "Noto Sans JP", sans-serif; }
 
 .imagen {
-    width: 100%;
-    max-width: 400px;
-}
+  width: 100%;
+  max-width: 400px; }
 
 .imagen2 {
-    width: 100%;
-    max-width: 800px;
-}
-
-.container .h3 {
-    transition: 3s;
-    font-family: 'Noto Sans JP', sans-serif;
-    text-shadow: 2px 1px 4px white;
-    font-weight: 900;
-}
-
-.container .h3:hover {
-    text-shadow: 2px 1px 4px #8336db;
-}
-
-.parrafo {
-    font-family: 'Noto Sans JP', sans-serif;
-    text-align: justify;
-}
+  width: 100%;
+  max-width: 800px; }
 
 .carousel-item img {
-    width: 100%;
-    height: 50vh;
-    object-fit: cover;
-}
+  width: 100%;
+  height: 50vh;
+  object-fit: cover; }
 
 .carousel-item .carousel-caption h5 {
-    text-shadow: 2px 1px 4px black;
-}
+  text-shadow: 2px 1px 4px black; }
 
 #lab {
-    background-image: url(../images/marijuana-g8e314a1a8_1920.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+  background-image: url(../images/marijuana-g8e314a1a8_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
 
+.container .h3 {
+  transition: 3s;
+  font-family: "Noto Sans JP", sans-serif;
+  text-shadow: 2px 1px 4px white;
+  font-weight: 900; }
+  .container .h3:hover {
+    text-shadow: 2px 1px 4px #8336db; }
+
+.container .h2 {
+  transition: 3s;
+  font-family: "Noto Sans JP", sans-serif;
+  text-shadow: 2px 1px 4px white; }
+  .container .h2:hover {
+    text-shadow: 2px 1px 4px #8336db; }
+
+.container .h1 {
+  transition: 3s;
+  font-family: "Noto Sans JP", sans-serif;
+  text-shadow: 2px 1px 4px white;
+  font-weight: 900; }
+  .container .h1:hover {
+    text-shadow: 2px 1px 4px #8336db; }
+
+.parrafo {
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: justify; }
 
 footer div svg {
-    color: aliceblue;
-    margin: 10px;
-}
-
+  color: aliceblue;
+  margin: 10px; }

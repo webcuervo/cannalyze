@@ -1,0 +1,45 @@
+@import "vars";
+
+
+.container-fluid {
+
+    .navbar-brand {
+        font-family: 'Noto Sans JP', sans-serif;
+        color: $colorceleste;
+        font-weight: 500;
+        &:hover {
+            color: #3D94F6;
+            text-shadow: 0 0 10px $colorvioleta,
+            0 0 15px $colorvioleta,
+            0 0 20px $colorvioleta;
+        }
+        span {
+            transition: .4s linear;
+            &:hover {
+                color: $colorceleste;
+                font-weight:bolder;
+                letter-spacing: 8px;
+                text-transform: uppercase;
+                text-shadow: 0 0 10px $colorvioleta,
+                0 0 15px $colorvioleta,
+                0 0 20px $colorvioleta;
+                }
+        }
+    } 
+}
+
+#navbarTogglerDemo03 {
+    transition: 180ms linear;
+}
+
+.navbar-toggler-icon {
+    background-color: $colorceleste;
+    border: 1px solid $colorceleste;
+    border-radius: 3px;
+    font-size: 25px;
+}
+
+.nav-item:hover {
+    transition:1.1s;
+    background-color: $colorvioleta;
+}

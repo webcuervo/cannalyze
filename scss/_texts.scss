@@ -1,0 +1,39 @@
+@import "vars";
+
+.container {
+
+    .h3 {
+    transition: 3s;
+    font-family: $font;
+    text-shadow: 2px 1px 4px $colorblanco;
+    font-weight: 900;
+    &:hover {
+        text-shadow: 2px 1px 4px $colorvioleta;
+        }
+    }
+
+    .h2 {
+        transition: 3s;
+        font-family: $font;
+        text-shadow: 2px 1px 4px $colorblanco;
+        &:hover {
+            text-shadow: 2px 1px 4px $colorvioleta;
+        }
+    }
+
+    .h1 {
+        transition: 3s;
+        font-family: $font;
+        text-shadow: 2px 1px 4px $colorblanco;
+        font-weight: 900;
+        &:hover {
+            text-shadow: 2px 1px 4px $colorvioleta;
+        } 
+    }
+}
+
+
+.parrafo {
+    font-family: $font;
+    text-align: justify;
+}

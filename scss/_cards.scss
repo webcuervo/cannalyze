@@ -1,0 +1,77 @@
+@import "vars";
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card img {
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+}
+
+.imgBanner {
+    position: relative;
+    width: 540px;
+    img{
+        display: block;
+        width: 100%;
+        border-radius: 29px;
+        opacity: 0.8;
+        filter: sepia(30%);
+    }
+}
+
+
+.imgOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: $colorblanco;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25ms;
+    transform: translateY(10px);
+    transition: transform 0.25s;
+    &:hover {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    h3 {
+        font-family: $font;
+    }
+}
+
+.imagen {
+    width: 100%;
+    max-width: 400px;
+}
+
+.imagen2 {
+    width: 100%;
+    max-width: 800px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.carousel-item .carousel-caption h5 {
+    text-shadow: 2px 1px 4px black;
+}
+
+#lab {
+    background-image: url(../images/marijuana-g8e314a1a8_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
