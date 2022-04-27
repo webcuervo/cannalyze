@@ -90,33 +90,26 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
-.container .h3 {
+.container .h3, .container .h2, .container .h1 {
   transition: 3s;
   font-family: "Noto Sans JP", sans-serif;
   text-shadow: 2px 1px 4px white;
   font-weight: 900; }
-  .container .h3:hover {
+  .container .h3:hover, .container .h2:hover, .container .h1:hover {
     text-shadow: 2px 1px 4px #8336db; }
 
 .container .h2 {
-  transition: 3s;
-  font-family: "Noto Sans JP", sans-serif;
-  text-shadow: 2px 1px 4px white; }
+  background-color: #3D94F6; }
   .container .h2:hover {
     text-shadow: 2px 1px 4px #8336db; }
 
-.container .h1 {
-  transition: 3s;
-  font-family: "Noto Sans JP", sans-serif;
-  text-shadow: 2px 1px 4px white;
-  font-weight: 900; }
-  .container .h1:hover {
-    text-shadow: 2px 1px 4px #8336db; }
+.container .h1:hover {
+  text-shadow: 2px 1px 4px #8336db; }
 
 .parrafo {
   font-family: "Noto Sans JP", sans-serif;
   text-align: justify; }
 
 footer div svg {
-  color: aliceblue;
+  color: white;
   margin: 10px; }

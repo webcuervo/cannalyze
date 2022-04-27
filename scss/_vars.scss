@@ -2,3 +2,15 @@ $colorceleste: #3D94F6;
 $colorvioleta: #8336db;
 $colorblanco: white;
 $font: 'Noto Sans JP', sans-serif;
+
+@mixin sizeimg($width, $maxwidth) {
+    width: $width;
+    max-width: $maxwidth;
+}
+
+
+$textstyle: (
+    "transition": 3s,
+    "sombra": 2px 1px 4px $colorblanco,
+    "weight": 900,
+)
