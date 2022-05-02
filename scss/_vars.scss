@@ -1,6 +1,7 @@
 $colorceleste: #3D94F6;
 $colorvioleta: #8336db;
 $colorblanco: white;
+$colornegro: black;
 $font: 'Noto Sans JP', sans-serif;
 
 @mixin sizeimg($width, $maxwidth) {
@@ -12,5 +13,6 @@ $font: 'Noto Sans JP', sans-serif;
 $textstyle: (
     "transition": 3s,
     "sombra": 2px 1px 4px $colorblanco,
+    "sombrah1":2px 1px 4px $colornegro,
     "weight": 900,
 )

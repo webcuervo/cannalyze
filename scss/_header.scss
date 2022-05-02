@@ -1,31 +1,20 @@
 @import "vars";
 
+.header {
+    background: url(../images/seedsmain.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
 
-.container-fluid {
+.header {
+    .navbar {
+        background-color: transparent !important;
+    }
 
     .navbar-brand {
-        font-family: 'Noto Sans JP', sans-serif;
-        color: $colorceleste;
-        font-weight: 500;
-        &:hover {
-            color: #3D94F6;
-            text-shadow: 0 0 10px $colorvioleta,
-            0 0 15px $colorvioleta,
-            0 0 20px $colorvioleta;
-        }
-        span {
-            transition: .4s linear;
-            &:hover {
-                color: $colorceleste;
-                font-weight:bolder;
-                letter-spacing: 8px;
-                text-transform: uppercase;
-                text-shadow: 0 0 10px $colorvioleta,
-                0 0 15px $colorvioleta,
-                0 0 20px $colorvioleta;
-                }
-        }
-    } 
+        max-width: 70px;
+        max-height: 90px;
+    }
 }
 
 #navbarTogglerDemo03 {
@@ -37,6 +26,11 @@
     border: 1px solid $colorceleste;
     border-radius: 3px;
     font-size: 25px;
+}
+
+.nav-item {
+    border-bottom: 2px solid $colorvioleta;
+
 }
 
 .nav-item:hover {

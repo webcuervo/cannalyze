@@ -14,7 +14,6 @@
 
     .h2 {
         @extend .h3;
-        background-color: $colorceleste;
         &:hover {
             text-shadow: 2px 1px 4px $colorvioleta;
         }
@@ -22,12 +21,28 @@
 
     .h1 {
         @extend .h3;
+        color: $colorceleste;
+        font-size: 8vw;
+        text-shadow: map-get($textstyle, sombrah1);
+        background-color: transparent;
         &:hover {
-            text-shadow: 2px 1px 4px $colorvioleta;
-        } 
+            text-shadow: 0 0 10px $colorvioleta,
+                0 0 15px $colorvioleta,
+                0 0 20px $colorvioleta;
+        }
+        span {
+            transition: .4s linear;
+            &:hover {
+                color: $colorceleste;
+                font-weight:bolder;
+                letter-spacing: 8px;
+                text-shadow: 0 0 10px $colorvioleta,
+                0 0 15px $colorvioleta,
+                0 0 20px $colorvioleta;
+                }
+        }
     }
 }
-
 
 .parrafo {
     font-family: $font;
