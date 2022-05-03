@@ -17,11 +17,17 @@
   font-size: 25px; }
 
 .nav-item {
-  border-bottom: 2px solid #8336db; }
+  border-bottom: 2px solid #8336db;
+  font-weight: 500; }
+  @media only screen and (max-width: 991px) {
+    .nav-item {
+      background-color: rgba(61, 148, 246, 0.4);
+      font-weight: 700;
+      padding-left: 12px; } }
 
 .nav-item:hover {
   transition: 1.1s;
-  background-color: #8336db; }
+  background-color: rgba(61, 148, 246, 0.4); }
 
 .row {
   display: flex;

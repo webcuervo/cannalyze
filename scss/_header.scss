@@ -27,9 +27,15 @@
 
 .nav-item {
     border-bottom: 2px solid $colorvioleta;
-        }
+    font-weight: 500;
+    @media only screen and (max-width: 991px) {
+        background-color: rgba($color: $colorceleste, $alpha: 0.4);
+        font-weight: 700;
+        padding-left: 12px;
+    }
+}
 
 .nav-item:hover {
     transition:1.1s;
-    background-color: $colorvioleta;
+    background-color: rgba($color: $colorceleste, $alpha: 0.4);
 }
