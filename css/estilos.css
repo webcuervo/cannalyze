@@ -14,9 +14,6 @@
   transition: 180ms linear; }
 
 .navbar-toggler-icon {
-  background-color: #3D94F6;
-  border: 1px solid #3D94F6;
-  border-radius: 3px;
   font-size: 25px; }
 
 .nav-item {
